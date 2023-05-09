@@ -1,0 +1,44 @@
+
+.collapse {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.form-label {
+  margin-right: 100px;
+}
+
+.heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 991px) {
+  .collapse {
+    display: inline;
+  }
+}
+
+body{
+  background-image: url("https://images.pexels.com/photos/1809644/pexels-photo-1809644.jpeg?auto=compress&cs=tinysrgb&w=1600");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main{
+  font-size: 25px;
+}
+
+.footer{
+  width: 100%;
+  text-align: center;
+  color: aliceblue;
+  padding: 30px 0;
+}
+.footer h4{
+  margin-bottom: 25px;
+  margin-top: 25px;
+  font-weight: 600;
+}

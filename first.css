@@ -1,0 +1,89 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+
+.bg-image{
+  background-image: url('images/imbg.jpg'); 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  height: 100vh;
+}
+
+.banner-text{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  color: aliceblue;
+}
+
+.banner-text h1{
+  font-size: 80px;
+}
+
+.dept{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+.dept-col{
+  flex-basis: 32%;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+}
+.dept-col img{
+  width: 100%;
+  height: 650px;
+  display: block;
+}
+.dept-col a{
+  cursor: pointer;
+}
+.layer{
+  background: transparent;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.5s;
+}
+.layer:hover{
+  background: rgba(256, 0, 0, 0.7);
+}
+.layer h3{
+  width: 100%;
+  font-weight: 500;
+  color: #fff;
+  font-size: 26px;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+  position: absolute;
+  opacity: 0;
+  transition: 1s;
+  cursor: pointer;
+}
+.layer:hover h3{
+  bottom: 49%;
+  opacity: 1;
+}
+
+.footer{
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+}
+.footer h4{
+  margin-bottom: 25px;
+  margin-top: 25px;
+  font-weight: 600;
+}
